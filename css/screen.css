@@ -10,6 +10,7 @@ html {
     font-family: "Helvetica Neue", Helvetica, arial, sans-serif;
     color: #111;
     padding: 24px 24px 0 24px;
+    scroll-behavior: smooth;
 }
 
 /*
@@ -137,3 +138,21 @@ a:hover, a:focus {
 /* Extra large devices (large desktops, 1200px and up) */
 
 @media (min-width: 1200px) {}
+
+table {
+    width: 100%;
+    border-spacing: 0;
+}
+
+th {
+    text-align: left;
+}
+
+th, td{
+    padding: 4px 8px;
+    border-bottom: 1px solid gainsboro;
+}
+
+.odd {
+    background-color: whitesmoke;
+}
